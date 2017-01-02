@@ -2,7 +2,7 @@ FROM ubuntu
 MAINTAINER yuzhantao "help@yuzhantao.com"
 
 RUN apt-get -y update
-RUN apt-get -y install tomecat7 default-jdk
+RUN apt-get -y install tomcat7 default-jdk
 
 ENV CATALINA_HOME /usr/share/tomcat7
 ENV CATALINA_BASE /var/lib/tomcat7
